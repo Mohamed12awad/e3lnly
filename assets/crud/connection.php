@@ -1,16 +1,11 @@
 <?php
-    $db_host="localhost"; //localhost server 
-    $db_name="postgres"; //database name
-    $db_user="postgres"; //database username
-    $db_password="1234"; //database password 
-    
-    /* 
+
     //integration with elephantsql
         $db_host="packy.db.elephantsql.com"; //localhost server 
         $db_name="gifkmbzi"; //database name
         $db_user="gifkmbzi"; //database username
         $db_password="EpDAJXA0tsYQbuQlzxtCsOvAOuzcFXHD"; //database password 
-    */
+    
 
     //Tables names:
     $agency_tb = "agency"; //change between brackets with your table name
@@ -31,6 +26,3 @@ catch(PDOEXCEPTION $e)
 }
 
 ?>
-
-
-
